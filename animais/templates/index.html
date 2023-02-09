@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca Animal</title>
+</head>
+<body>
+    <a class="navbar">Busca Animal</a>
+
+    <form>
+
+        <input type="text" id="buscar-animal" placeholder="Exemplo: Leão, Urso..." name="buscar">
+        <button type="submit">Pesquisar</button>
+
+    </form>
+
+    {% for caracteristica in caracteristicas %}
+        <div class="result-description">{{caracteristica.nome_animal}}</div>
+        <div class="result-description">{{caracteristica.predador}}</div>
+        <div class="result-description">{{caracteristica.venenoso}}</div>
+        <div class="result-description">{{caracteristica.domestico}}</div>
+    {% endfor %}
+
+</body>
+</html>

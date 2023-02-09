@@ -68,7 +68,8 @@ lista_animais = [
     {'nome_animal':'vespa','predador': 'não','venenoso': 'sim','domestico': 'não'},
     {'nome_animal':'lobo','predador': 'sim','venenoso': 'não','domestico': 'não'},
     {'nome_animal':'minhoca','predador': 'não','venenoso': 'não','domestico': 'não'},
-    {'nome_animal':'carriça','predador': 'não','venenoso': 'não','domestico': 'não'}
+    {'nome_animal':'carriça','predador': 'não','venenoso': 'não','domestico': 'não'},
+    {'nome_animal':'cachorro','predador': 'sim','venenoso': 'não','domestico': 'sim'},
 ]
 
 import os, django
